@@ -1,0 +1,74 @@
+@import './constansColors.scss';
+
+
+
+.search_conteiner
+{
+    margin-top: 30px;
+     text-align: center;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+/* поисковая строка */
+.input_search_music
+{
+  width: 70%;
+  padding: 5px;
+  background-color: rgba(255, 8, 8, 0); //-----------------------
+
+  font-size: 16px;
+  font-family:'Baloo Da 2', cursive;
+
+  border: 0;  
+  border-bottom-width: 1px; /* Толщина линии внизу */
+  border-bottom-style: solid; /* Стиль линии внизу */
+  border-bottom-color: white;
+  outline:none;
+}
+
+/* icon лупа */
+.fa-search
+{
+    color:rgb(138, 138, 138);
+    margin: 0 20px;
+}
+
+/* Контейнер со всеми найдеными песнями */
+.resut_of_search
+{
+    // color:white;    
+    margin:20px;
+    margin-bottom: 10vh;
+}
+
+/* Одна песня с картинкой и названием */
+.artist_block
+{
+    display: flex;
+    margin: 10px;
+}
+.searchbox_name_of_song
+{
+    margin: 10px;   
+    justify-content: space-between;
+    padding: 0;
+    
+    p
+    {
+        margin: 0;
+        font-size: 12px;
+        text-decoration: none;
+        font-family:'Baloo Da 2', cursive;        
+        line-height: 1em;
+    }
+}
+
+.warning
+{
+    text-align: center;
+    // color: #838383;
+    font-size: 16px;
+    font-family:'Baloo Da 2', cursive;
+}
+

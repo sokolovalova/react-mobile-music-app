@@ -1,0 +1,25 @@
+.carusel_slider {
+    margin: 15vh auto;
+    max-width: 400px;
+    width: 70%;
+    height: 50%;
+    text-align: center;
+    img {
+        width: 100%;
+    }
+    button {
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        letter-spacing: 5px;
+        display: inline;
+        margin: 3vh auto;
+        padding: 5px;
+    }
+}
+.select_button {
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.select_button:focus {
+    outline: none;
+}

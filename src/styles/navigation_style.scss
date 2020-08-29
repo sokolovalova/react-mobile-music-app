@@ -1,0 +1,36 @@
+@import './constansColors.scss';
+
+.box-navigation{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+.navigation{
+    // background-color: rgba(0, 173, 178,.8);
+    // background-color: rgba(253, 203, 203,.8);
+    // background-color: rgba(18, 118, 129,.8);
+
+    margin: 5px;    
+    padding: 3px;    
+    display: flex;
+
+    a{
+        size: initial;
+        font-family:'Baloo Da 2', cursive;
+        text-decoration: none;
+        color: white;
+        padding: 3px;
+        border-radius: 3px;
+        margin:3px;
+        text-align: center;
+        flex:1;
+        
+    }
+
+    .icons{
+        color: white;
+        font-size: 16px;
+        padding: 0;
+    }
+}

@@ -1,0 +1,43 @@
+.login_conteiner_inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 30vh auto;
+
+    input {
+        display: block;
+        margin: 5px auto;
+        width: 60vw;
+        padding: 5px;
+    }
+    div{
+        display: flex;
+            flex-direction: row;
+            width: 60%;
+            margin: 5vh auto;
+            justify-content: space-around;
+        button {
+            display: inline;
+            font-family: "Roboto", sans-serif;
+            font-size: 14px;
+            letter-spacing: 2px;
+            color: aliceblue;
+            min-width: 90px;
+            padding: 7px;
+            border-radius: 5%;
+            transition: color 99999s;
+        }
+    }
+    button:focus {
+        outline: 0;
+    }
+    .message {
+        color: red;
+        text-align: center;
+    }
+}
+// .flex_buttons {
+//     display: flex;
+//     flex-direction: row;
+//     width: 50%;
+//     margin: 5vh auto;
+// }

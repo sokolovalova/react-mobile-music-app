@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #222831;
+  /* background-color: #ad9d9d; */
+  /* background-color: #ffe2bc; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+html{
+  margin: 0;
+  padding: 0;
+}
+.my_body
+{
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#root
+{
+  margin: 0;
+}
+
+.status_bar
+{
+  width: 99%;
+  
+  position: fixed;
+  top: 0px;
+}
+
+.search_icon
+{
+  color: aliceblue;
+  background-color: aliceblue;
+}
+
+.img_artistList
+{
+  border-radius: 50%;
+}

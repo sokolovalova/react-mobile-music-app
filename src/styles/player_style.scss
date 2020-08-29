@@ -1,0 +1,38 @@
+.conteiner_player_element {
+    width: 90vw;
+    margin: 2vh auto;
+    height: 75vh;
+    border-radius: 5px;
+    img {
+        margin: auto;
+        padding: 4vh 5vh;
+        display: block;
+        border-radius: 15%;
+    }
+    p {
+        margin: 0 auto;
+        color: aliceblue;
+        font-family: "Baloo Da 2", cursive;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+.audioplayer {
+    width: 80vw;
+    height: 5vh;
+    display: block;
+    margin: 7% auto;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 1vw;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #eee;
+}
+
+.fa-chevron-left {
+    margin-top: 40px;
+    margin-left: 5px;
+    font-size: 36px;
+}

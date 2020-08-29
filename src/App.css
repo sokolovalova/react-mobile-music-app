@@ -1,0 +1,41 @@
+
+
+.boot_text,
+.boot_text_second 
+/* text - MUSIC */
+{
+    color: white;
+    font-family: 'Nanum Brush Script', cursive; /*https://fonts.google.com/specimen/Nanum+Brush+Script?query=San&sidebar.open&selection.family=Nanum+Brush+Script*/
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40vh;    
+}
+.boot_text_second
+/* text - App for you */
+{
+    font-weight: 100;
+    font-size: large;
+    margin-top: 5vh; 
+}
+.line_horizontal
+/* horizontile line in welsome window */
+{
+    margin: 0 20px
+}
+.btn_start
+/* button "start" in welcon wondow */
+{
+    margin: 20vh auto;
+    display: block;
+    width: 100px;
+    height: 30px;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 20px;
+    background-color: white;
+    
+}
+._hidden
+{
+  visibility: hidden;
+}
